@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Carlinha site</title>
+	<meta name="viewport" content="width=device-width">
+	<script src="https://kit.fontawesome.com/fc33e921c2.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+	
+	<link rel="shortcut icon" href="./images/logo.png">
+</head>
+<body>
+	<div id="bkgWhite" class="esconder"></div>
+	<div id="bkgBlack" class="esconder"></div>
+<!-- 	Header   -->
+	<header>
+		<div id="homeCelular"></div>
+		<div id="itens">
+			<a href="./index.html"><img id="imgLogo" src="images/logo.png"></img></a>
+			<!-- Caixa 480px -->
+			<i class="fas fa-bars"></i>
+			<div id="Hlista">
+				<ul>
+					<a href="./cursos.html"><li>Cursos</li></a>
+					<a href="./podcast.html"><li>Podcast</li></a>
+					<a href="./sobre-mim.html"><li>Sobre Mim</li></a>
+					<a href="./contato.html"><li>Contatos</li></a>
+				</ul>
+			</div>
+			<div id="caixaLogin">
+			<div id="imgLogin">
+				<i class="loginIco fas fa-user"></i>
+				<p id="login">Login</p>
+			</div>
+			<div id="quebralinhaLogin"></div>
+			</div>
+		</div>
+	</header>
+
+<!--  Sections  -->
+<!--   Cursos  -->
+	<section>
+
+		 <h1 class="titulo"><span>Contato</span></h1>
+	    
+			<div id="ctCentro">
+				<img id="imgContato" src="images/foto_carlinha_01.png"></img>
+				<div id="ctCentro2">
+					<div id="ctIcons">
+						<i class="fas fctt fa-mobile-alt"></i>
+						<i class="fas fctt fa-phone-alt"></i>
+						<i class="fas fctt fa-envelope"></i>
+					</div>
+					<div id="ctInfos">
+						<p>(13)99999-9999</p>
+						<p>(13)99999-9999</p>
+						<p>Carlinhabassan@info.com</p>
+					</div>
+				</div>
+	    	</div>
+	    </section>
+
+<!-- Login -->
+
+<div id="blocoLogin" class="conjunto esconder">
+		
+		<div class="caixaflu" class="conjunto esconder">
+
+			<a><div id="fecha"> X </div></a>
+
+			<div class="centraliza">
+				<img id="logo" src="images/logo_cortada.png">
+			</div>
+
+			<div class="log_margin">
+				<form>
+					<label>Email*</label>
+					<input  type="email" name="email_log" id="email_log" >
+				      <br>
+					<label>Senha*</label>
+					<input type="password" name="senha_log" id="senha_log">
+
+					<div id="esq" class="esq">
+						<a><p>Esqueceu a senha?</p></a>
+				    </div>
+			    </form>
+			</div>
+
+			<div class="centraliza">
+			    	<button class="op_log"><i class="fab fa-google"></i></button>
+			    	<button class="op_log"><i class="fab fa-facebook-f"></i></button>
+			    	<button class="op_log"><i class="fab fa-linkedin-in"></i></button>
+			    		<br>
+			    	<input class="button" type="submit" name="con_log" id="con_log" />
+			    	<p>Não possui cadastro ainda? <a><strong> Clique aqui </strong></a></p>
+			 </div>
+		</div>
+	</div>
+<!-- Footer  -->
+	<footer>
+		<div id="FIDiv">
+			<i class="fab fa-facebook-square ficon fa-3x"></i>
+			<i class="fab fa-youtube ficon fa-3x" ></i>
+			<i class="fab fa-instagram-square ficon fa-3x"></i>
+		</div>
+	</footer>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>

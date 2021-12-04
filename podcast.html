@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Carlinha site</title>
+	<script src="https://kit.fontawesome.com/fc33e921c2.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="./images/logo.png">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+</head>
+<body>
+	<div id="bkgWhite" class="esconder"></div>
+	<div id="bkgBlack" class="esconder"></div>
+<!-- 	Header   -->
+	<header>
+		<div id="homeCelular"></div>
+		<div id="itens">
+			<a href="./index.html"><img id="imgLogo" src="images/logo.png"></img></a>
+			<!-- Caixa 480px -->
+			<i class="fas fa-bars"></i>
+			<div id="Hlista">
+				<ul>
+					<a href="./cursos.html"><li>Cursos</li></a>
+					<a href="./podcast.html"><li>Podcast</li></a>
+					<a href="./sobre-mim.html"><li>Sobre Mim</li></a>
+					<a href="./contato.html"><li>Contatos</li></a>
+				</ul>
+			</div>
+			<div id="caixaLogin">
+			<div id="imgLogin">
+				<i class="loginIco fas fa-user"></i>
+				<p id="login">Login</p>
+			</div>
+			<div id="quebralinhaLogin"></div>
+			</div>
+		</div>
+	</header>
+<!--  Sections  -->
+<!--   Podcasts   -->
+
+<section>
+
+	<h1 class="titulo"><span>Podcast</span></h1>
+	<div id="divControle">
+		<nav id="navezinha">
+			<h2 class="pcSubTitulo">Categorias</h2>
+			<ul class="categorias">
+				<li class="liC01 liCategoria">História</li>
+				<li class="liCategoria">Filosofia</li>
+				<li class="liCategoria">Convidados</li>
+				<li class="liCategoria">Saúde Mental</li>
+				<li class="liCategoria">Educação</li>
+				<li class="liCategoria">Ética</li>
+				<li class="liCategoria">Vida Social</li>
+			</ul>
+			<h2 class="pcSubTitulo">Temas</h2>
+			<ul class="categorias">
+				<li class="liC01 liCategoria">História</li>
+				<li class="liCategoria">Filosofia</li>
+				<li class="liCategoria">Convidados</li>
+				<li class="liCategoria">Saúde Mental</li>
+				<li class="liCategoria">Educação</li>
+				<li class="liCategoria">Ética</li>
+				<li class="liCategoria">Vida Social</li>
+			</ul>
+		</nav>
+
+
+		<div class="centroPodcast">
+			<div class="ppPodcast">
+				<img class="imgPodcast" src="./images/podcast01.webp"></img>
+				<div class="ppTexto">
+					<h2 class="pdcH2">IA: Ininterruptamente Analisados</h2>
+					<p class="dsppPodcast dsppIndex">Sábado Letivo da ETEC Aristóteles Ferreira
+						A Inteligência Artificial existe para nos beneficiar ou para nos analisar?
+
+						Essa e muitas outras reflexões serão geradas nessa conversa sobre tecnologia e ética no mundo moderno.
+					</p>
+					<a href="https://www.youtube.com/watch?v=g6tlrRbVMS4"><button class="pButton">Ver Mais</button></a>
+				</div>
+			</div>
+
+			<div class="ppPodcast">
+				<img class="imgPodcast" src="./images/podcast02.webp">
+				<div class="ppTexto">
+					<h2 class="pdcH2">Educação a para reconexão humana com a natureza</h2>
+					<p class="dsppPodcast dsppIndex">Se a educação é para vida, a ecologia tem que estar no foco!
+
+					Nessa live teremos a presença da bióloga, educadora e ativista ambiental Silvia Castro.
+
+					Vamos aproveitar toda sua experiência, de mais de 20 anos na área, seja como diretora do Instituto EcoFaxina...</p>
+					
+					<a href="https://www.youtube.com/watch?v=Dw0DP1DlnlM"><button class="pButton">Ver Mais</button></a>
+				</div>
+			</div>
+			<div class="ppPodcast">
+				<img class="imgPodcast" src="./images/podcast03.webp"></img>
+				<div class="ppTexto">
+					<h2 class="pdcH2">Amizade, Sororidade e o Tempo</h2>
+					<p class="dsppPodcast dsppIndex">O Marcando a Taça traz à tona a amizade feminina e as transformações positivas que ela tem o poder de provocar.
+
+					Nesse retorno da live de sábado terei o prazer de receber as mais que amigas, friends, Josieni Pereira e Melissa Vicente para esse bate papo!</p>
+					<a href="https://www.youtube.com/watch?v=cKq79I9jmWY"><button class="pButton">Ver Mais</button></a>
+				</div>
+			</div>
+			<div class="ppPodcast">
+				<img class="imgPodcast" src="./images/podcast04.webp"></img>
+				<div class="ppTexto">
+					<h2 class="pdcH2">Parem de romantizar a mulher multitarefas!</h2>
+					<p class="dsppPodcast dsppIndex">Dessa vez o time de primeira contará com Marina Rajabally e Nathalia Aoão e o assunto é a necessária desconstrução da rotina multiatarefada que estressa e cansa ao extremo a mulherada.</p>
+					<a href="https://www.youtube.com/watch?v=iKDz49X7GE8"><button class="pButton">Ver Mais</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Login -->
+
+<div id="blocoLogin" class="conjunto esconder">
+		
+		<div class="caixaflu" class="conjunto esconder">
+
+			<a><div id="fecha"> X </div></a>
+
+			<div class="centraliza">
+				<img id="logo" src="images/logo_cortada.png">
+			</div>
+
+			<div class="log_margin">
+				<form>
+					<label>Email*</label>
+					<input  type="email" name="email_log" id="email_log" >
+				      <br>
+					<label>Senha*</label>
+					<input type="password" name="senha_log" id="senha_log">
+
+					<div id="esq" class="esq">
+						<a><p>Esqueceu a senha?</p></a>
+				    </div>
+			    </form>
+			</div>
+
+			<div class="centraliza">
+			    	<button class="op_log"><i class="fab fa-google"></i></button>
+			    	<button class="op_log"><i class="fab fa-facebook-f"></i></button>
+			    	<button class="op_log"><i class="fab fa-linkedin-in"></i></button>
+			    		<br>
+			    	<input class="button" type="submit" name="con_log" id="con_log" />
+			    	<p>Não possui cadastro ainda? <a><strong> Clique aqui </strong></a></p>
+			 </div>
+		</div>
+	</div>
+
+
+
+<!-- Footer  -->
+	<footer>
+		<div id="FIDiv">
+			<i class="fab fa-facebook-square ficon fa-3x"></i>
+			<i class="fab fa-youtube ficon fa-3x" ></i>
+			<i class="fab fa-instagram-square ficon fa-3x"></i>
+		</div>
+	</footer>
+<script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>
