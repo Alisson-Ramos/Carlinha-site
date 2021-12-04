@@ -1,0 +1,119 @@
+@media (max-width: 480px) {
+  body {
+    background-image: url("../images/bkg_responsivo_01.png");
+  }
+  section {
+    width: 300px;
+  }
+  /*Header*/
+  footer {
+    display: none;
+  }
+  #Hlista {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    left: 160px;
+    top: 0px;
+  }
+  #imgLogin {
+  }
+  .fa-bars {
+    font-size: 25px;
+    display: block;
+  }
+  header {
+    height: 70px;
+  }
+  #itens {
+    height: 100%;
+    align-items: center;
+    padding: 0px 30px 0px 10px;
+  }
+  ul li {
+    display: block;
+    padding: 25px 0px 0px 0px;
+  }
+  ul {
+    padding: 50px 0px 0px 0px;
+  }
+  #caixaLogin {
+    position: absolute;
+    left: 230px;
+  }
+  #quebralinhaLogin {
+    border-bottom: 2px solid #a3185b;
+    width: 200px;
+    position: ABSOLUTE;
+    left: -70px;
+    top: 70px;
+  }
+  a {
+    text-decoration: none;
+  }
+  /* Curso */
+  .centro {
+    width: 300px;
+    flex-direction: column;
+  }
+
+  .cCurso {
+    margin: 0px 0px 30px 0px;
+  }
+
+  /* Podcast */
+  .ppPodcast {
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dsppPodcast {
+    width: 300px;
+    height: 90px;
+    text-align: justify;
+  }
+  .ppTexto {
+    padding: 10px 0px 0px 0px;
+    width: 300px;
+    text-align: center;
+  }
+  .imgPodcast {
+    width: 300px;
+    height: 170px;
+  }
+  #navezinha {
+    display: none;
+  }
+
+  .celMenu {
+    width: 300px;
+    height: 300px;
+    background-color: #babaca;
+  }
+
+  /*SOBRE MIM*/
+  p {
+    text-align: justify;
+  }
+  #sCentro {
+    display: block;
+  }
+  #sTexto {
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  /* Teste */
+
+  #homeCelular {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    left: 160px;
+    top: 0px;
+  }
+}

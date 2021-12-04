@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+  background-image: url("../images/bkg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+}
+* {
+  font-weight: 400px;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 14px;
+}
+h2 {
+  font-size: 14px;
+}
+p {
+  font-size: 12px;
+}
+.centro {
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+button:hover {
+  cursor: pointer;
+}
+a:hover {
+  cursor: pointer;
+}
+/* Footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  background-color: #a3185b;
+}
+.ficon {
+  font-size: 24px;
+  padding: 12px 10px 0px 10px;
+  color: #fff;
+}
+
+/* header */
+ul li {
+  padding: 25px 25px 0px 0px;
+  display: inline-block;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+#imgLogin:hover {
+  cursor: pointer;
+}
+#imgLogin {
+  text-align: center;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+#imgLogo {
+  width: 100px;
+  height: 100px;
+}
+#itens {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px 0px 15px;
+}
+#Hlista {
+  text-align: center;
+  width: 500px;
+  height: 100px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0px 0px 16px -3px #000;
+  margin: 0px 0px 100px 0px;
+}
+#login {
+  margin: 0px;
+  padding: 40px 0px 0px 0px;
+}
+.fe {
+  padding: 15px 10px 0px 15px;
+}
+.geral {
+  display: block;
+}
+.loginIco {
+  padding: 40px 0px 10px 0px;
+}
+.fa-bars {
+  display: none;
+}
+
+/* Titulo */
+h1 span {
+  background-color: #fff;
+  padding: 0 10px 0 10px;
+}
+.titulo {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  border-bottom: 2px solid #a3185b;
+  line-height: 0.05em;
+  text-align: center;
+}
+
+/* Cursos */
+section {
+  width: 960px;
+  margin: auto;
+}
+.cTexto {
+  text-align: justify;
+  margin: auto;
+  height: 80px;
+  width: 90%;
+}
+/*.linha{border-bottom: solid 2px #C11B5A;}*/
+.cCurso {
+  margin: 0px 7px 30px 7px;
+  background-color: #fff;
+  text-align: center;
+  border: solid thin #e17419;
+  width: 300px;
+  height: 378px;
+  border-radius: 10px;
+}
+.imgCurso {
+  width: 100%;
+  height: 200px;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: solid thin #e17419;
+}
+button {
+  margin: 15px 0px 0px;
+  background-color: #f49209;
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  border: none;
+}
+
+/*Podcast*/
+.imgPodcast {
+  width: 200px;
+  height: 125px;
+  border-radius: 22px;
+}
+.cPodcast {
+  height: 125px;
+  width: 480px;
+  padding: 50px 0px 0px 0px;
+  display: flex;
+}
+.cpTexto {
+  width: 190px;
+  height: 125px;
+  padding: 0px 0px 0px 10px;
+}
+.ppTexto {
+  width: 570px;
+  height: 125px;
+  padding: 0px 0px 0px 10px;
+}
+.centroPodcast {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.pdcH2 {
+  margin: 0px;
+}
+.ppPodcast {
+  width: 780px;
+  height: 125px;
+  padding: 30px 0px 0px 0px;
+  display: flex;
+}
+#navezinha {
+  margin: 30px 50px 0px 0px;
+}
+.pcSubTitulo {
+  padding: 10px 0px 10px 0px;
+  width: 100px;
+  border-bottom: #a3185b 2px solid;
+}
+.categorias {
+  font-size: 12px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+#divControle {
+  display: flex;
+}
+.liCategoria {
+  padding: 20px 0px 0px 0px;
+  font-weight: 400;
+}
+.liC01 {
+  padding: 0px;
+}
+.dsppPodcast {
+  height: 58px;
+}
+.pButton {
+  margin: 0px;
+}
+
+.dsppIndex {
+  width: 100%;
+}
+
+/* Sobre Mim */
+#imgContato {
+  margin: 0px 0px 50px 0px;
+  width: 250px;
+  height: 250px;
+  background-color: #babaca;
+  border-radius: 100%;
+}
+#ctIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#ctCentro {
+  height: 514px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px 0px 0px;
+}
+#ctCentro2 {
+  display: flex;
+}
+.fctt {
+  padding: 1px 7px 10px 0px;
+  text-align: center;
+}
+
+.loginIco {
+  padding: 40px 10px 0px 0px;
+}
+
+/* Login */
+
+#bkgWhite {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.8;
+}
+#bkgBlack {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+.conjunto {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -181px;
+  margin-top: -253.5px;
+}
+.caixaflu {
+  height: 462px;
+  width: 360px;
+  background-color: #fff;
+  border: thin solid #e17419;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#fecha,
+#fecha_Cad {
+  position: absolute;
+  left: 88%;
+  top: 6%;
+}
+
+.botlog,
+.botcad,
+#con_log,
+#btn_cad {
+  background-color: #a3185b;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 46px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#con_log,
+#btn_cad {
+  width: 110px;
+  height: 26px;
+  padding: 2px;
+  margin: 25px 0px 0px 0px;
+}
+#btn_cad {
+  margin: 25px 30px 0px 0px;
+}
+
+.botoes {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.botlog {
+  margin-right: 5px;
+}
+
+.botcad {
+  margin-left: 5px;
+}
+
+.centraliza {
+  text-align: center;
+}
+
+#logo {
+  width: 116px;
+  margin-top: 29px;
+}
+
+input {
+  background-color: #fdefe3;
+  border: none;
+  border-radius: 18px;
+  width: 292px;
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 4px;
+}
+
+label {
+  font-size: 14px;
+}
+
+.log_margin {
+  margin-left: 28px;
+}
+
+#esq,
+.esq {
+  font-size: 13px;
+  text-align: end;
+  margin-right: 28px;
+}
+
+.op_log {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #a3185b;
+  border-radius: 10px;
+  color: #fff;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.iconLogin {
+  padding: 3px 10px 0px 9px;
+}
+
+.esconder {
+  display: none;
+}
+
+/* Sobre Mim */
+#sTexto {
+  font-family: "Montserrat", sans-serif;
+}
+#imgSobre {
+  width: 310px;
+  height: 320px;
+}
+#sCentro {
+  display: flex;
+}
+#sTexto {
+  margin-left: 20px;
+  margin-top: -13px;
+}
+#secCentro {
+  padding: 20px 0px 0px 0px;
+}
+
+/* Teste */
