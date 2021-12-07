@@ -1,206 +1,238 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Carlinha site</title>
-	<script src="https://kit.fontawesome.com/fc33e921c2.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
-	<link rel="shortcut icon" href="./images/logo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Carlinha site</title>
+    <script src="https://kit.fontawesome.com/fc33e921c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+    <link rel="shortcut icon" href="./images/logo.png">
 </head>
+
 <body>
-	<div id="bkgWhite" class="esconder"></div>
-	<div id="bkgBlack" class="esconder"></div>
-<!-- 	Header   -->
-		
-	<header>
-		<div id="homeCelular"></div>
-		<div id="itens">
-			<a href="./index.html"><img id="imgLogo" src="images/logo.png"></img></a>
-			<!-- Caixa 480px -->
-			<i class="fas fa-bars"></i>
-			<div id="Hlista">
-				<ul>
-					<a href="./cursos.html"><li>Cursos</li></a>
-					<a href="./podcast.html"><li>Podcast</li></a>
-					<a href="./sobre-mim.html"><li>Sobre Mim</li></a>
-					<a href="./contato.html"><li>Contatos</li></a>
-				</ul>
-			</div>
-			<div id="caixaLogin">
-			<div id="imgLogin">
-				<i class="loginIco fas fa-user"></i>
-				<p id="login">Login</p>
-			</div>
-			<div id="quebralinhaLogin"></div>
-			</div>
-		</div>
-	</header>
+    <div id="bkgWhite" class="esconder"></div>
+    <div id="bkgBlack" class="esconder"></div>
+    <!-- 	Header   -->
 
-<!--  Sections  -->
-<!--   Cursos  -->
-	<section>
+    <header>
+        <div id="homeCelular"></div>
+        <div id="itens">
+            <a href="./index.html"><img id="imgLogo" src="images/logo.png"></img>
+            </a>
+            <!-- Caixa 480px -->
+            <i class="fas fa-bars"></i>
+            <div id="Hlista">
+                <ul>
+                    <a href="./cursos.html"><li>Cursos</li></a>
+                    <a id="sbpodcast">
+                        <li id="lipodcast">Podcast <i class="setamenu fas fa-chevron-right"></i></li>
+                    </a>
+                    <a href="./podcast.html">
+                        <li class="liCategoria esconder">Todos</li>
+                        <li class="liCategoria esconder">História</li>
+                    </a>
+                    <li class="liCategoria esconder">Filosofia</li>
+                    <li class="liCategoria esconder">Convidados</li>
+                    <li class="liCategoria esconder">Saúde Mental</li>
+                    <li class="liCategoria esconder">Educação</li>
+                    <li class="liCategoria esconder">Ética</li>
+                    <li class="liCategoria esconder">Vida Social</li>
+                    <a href="./sobre-mim.html"><li>Sobre Mim</li></a>
+                    <a href="./contato.html"><li>Contatos</li></a>
 
-		 <h1 class="titulo"><span>Cursos</span></h1>
-	    
-			<div class="centro">
-			    <div class="cCurso">
-			        <img class="imgCurso" src="images/egito.jpg"></img>
-			        <div class="linha"></div>
-			        <h2>História - Egito Antigo</h2>
-			        <p class="cTexto">Nesse curso, você irá aprender os principais aspectos da Política, Cultura e Sociedade do Egito Antigo. O curso engloba as principais características desse período, desde a formação da sociedade até sua queda.</p>
-			        <button>Veja Mais</button>
-			    </div>
-			    <div class="cCurso">
-			        <img class="imgCurso" src="images/guerra.jpg"></img>
-			        <div class="linha"></div>
-			        <h2>História - 1° Guerra Mundial</h2>
-			        <p class="cTexto">Aqui, você irá aprender sobre o período pré-guerra, as causas, o estopim, as maiores batalhas, e sobre o pós-guerra nesse curso completo sobre a guerra que acabaria com todas as guerras.</p>
-			        <button>Veja Mais</button>
-			    </div>
-			    <div class="cCurso">
-			        <img class="imgCurso" src="images/industria.jpg"></img>
-			        <div class="linha"></div>
-			        <h2>História - Revolução Industrial</h2>
-			        <p class="cTexto">Nesse curso, ensinarei sobre como era a vida antes da revolução industrial, suas causas, as principais máquinas inventadas nesse período e como ela afeta nossa vida até hoje.</p>
-			        <button>Veja Mais</button>
-			    </div>
-	    	</div>
-	    </section>
-<!--   Podcasts   -->
+                </ul>
+            </div>
+            <div id="caixaLogin">
+                <div id="imgLogin">
+                    <i class="loginIco fas fa-user"></i>
+                    <p id="login">Login</p>
+                </div>
+                <div id="quebralinhaLogin"></div>
+            </div>
+        </div>
+    </header>
+
+    <!--  Sections  -->
+    <!--   Cursos  -->
+    <section>
+
+        <h1 class="titulo"><span>Cursos</span></h1>
+
+        <div class="centro">
+            <div class="cCurso">
+                <img class="imgCurso" src="images/egito.jpg"></img>
+                <div class="linha"></div>
+                <h2>História - Egito Antigo</h2>
+                <p class="cTexto">Nesse curso, você irá aprender os principais aspectos da Política, Cultura e Sociedade do Egito Antigo. O curso engloba as principais características desse período, desde a formação da sociedade até sua queda.</p>
+                <a href="./egito.html"><button>Ver Mais</button></a>
+            </div>
+            <div class="cCurso">
+                <img class="imgCurso" src="images/civilizaçoes hidraulicas.jpg"></img>
+                <div class="linha"></div>
+                <h2>História - Civilizações Hidraulicas</h2>
+                <p class="cTexto">Aqui, você irá aprender sobre o período das civilizações hidraulicas, as evoluções presentes, principalmente relacionado a grande evolução da politica.</p>
+                <a href="./civilizacoes.html"><button>Ver Mais</button></a>
+            </div>
+            <div class="cCurso">
+                <img class="imgCurso" src="images/grecia2.jpg"></img>
+                <div class="linha"></div>
+                <h2>História - Grecia Antiga</h2>
+                <p class="cTexto">Nesse curso, ensinarei que a Grecia é definitivamente uma das civilizações mais influentes de todos os tempos e mesmo após sua queda, continua tão imponente quanto nos seus dias de ouro.</p>
+                <a href="./grecia.html"><button>Ver Mais</button></a>
+            </div>
+            <div class="cCurso">
+                <img class="imgCurso" src="images/corrida.jpeg"></img>
+                <div class="linha"></div>
+                <h2>História - Corrida Espacial</h2>
+                <p class="cTexto">Veja nosso curso sobre a Corrida Espacial. Aqui você entenderá mais sobre a Guerra Fria no geral e entenderá profundamente como ocorreu a corrida espacial, porquê ocorreu e como acabou.</p>
+                <button>Ver Mais</button>
+            </div>
+            <div class="cCurso">
+                <img class="imgCurso" src="images/terracota.jpg"></img>
+                <div class="linha"></div>
+                <h2>História - Exército de Terracota</h2>
+                <p class="cTexto">Entende aqui sobre como ocorreu a primeira dinastia da China e a incrível descoberta de mais de 8 mil estátuas de guerreiros com armas de bronze reais numa pirâmide subterranêa.</p>
+                <button>Ver Mais</button>
+            </div>
+        </div>
+    </section>
+    <!--   Podcasts   -->
 
 
-<section>
-	<h1 class="titulo"><span>Podcasts</span></h1>
-<div class="centroPodcast cenpIndex">
-			<div class="ppPodcast">
-				<img class="imgPodcast" src="./images/podcast01.webp"></img>
-				<div class="ppTexto">
-					<h2 class="pdcH2">IA: Ininterruptamente Analisados</h2>
-					<p class="dsppPodcast dsppIndex">Sábado Letivo da ETEC Aristóteles Ferreira
-						A Inteligência Artificial existe para nos beneficiar ou para nos analisar?
+    <section>
+        <h1 class="titulo"><span>Podcasts</span></h1>
+        <div class="centroPodcast cenpIndex">
+            <div class="ppPodcast">
+                <img class="imgPodcast" src="./images/podcast01.webp"></img>
+                <div class="ppTexto">
+                    <h2 class="pdcH2">IA: Ininterruptamente Analisados</h2>
+                    <p class="dsppPodcast dsppIndex">Sábado Letivo da ETEC Aristóteles Ferreira A Inteligência Artificial existe para nos beneficiar ou para nos analisar? Essa e muitas outras reflexões serão geradas nessa conversa sobre tecnologia e ética no mundo moderno.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=g6tlrRbVMS4" target="_blank"><button class="pButton">Ver
+							Mais</button></a>
+                </div>
+            </div>
 
-						Essa e muitas outras reflexões serão geradas nessa conversa sobre tecnologia e ética no mundo moderno.
-					</p>
-					<a href="https://www.youtube.com/watch?v=g6tlrRbVMS4"><button class="pButton">Ver Mais</button></a>
-				</div>
-			</div>
+            <div class="ppPodcast">
+                <img class="imgPodcast" src="./images/podcast02.webp">
+                <div class="ppTexto">
+                    <h2 class="pdcH2">Educação a para reconexão humana com a natureza</h2>
+                    <p class="dsppPodcast dsppIndex">Se a educação é para vida, a ecologia tem que estar no foco! Nessa live teremos a presença da bióloga, educadora e ativista ambiental Silvia Castro. Vamos aproveitar toda sua experiência, de mais de 20 anos na área, seja como diretora
+                        do Instituto EcoFaxina...</p>
 
-			<div class="ppPodcast">
-				<img class="imgPodcast" src="./images/podcast02.webp">
-				<div class="ppTexto">
-					<h2 class="pdcH2">Educação a para reconexão humana com a natureza</h2>
-					<p class="dsppPodcast dsppIndex">Se a educação é para vida, a ecologia tem que estar no foco!
+                    <a href="https://www.youtube.com/watch?v=Dw0DP1DlnlM" target="_blank"><button class="pButton">Ver
+							Mais</button></a>
+                </div>
+            </div>
+            <div class="ppPodcast">
+                <img class="imgPodcast" src="./images/podcast03.webp"></img>
+                <div class="ppTexto">
+                    <h2 class="pdcH2">Amizade, Sororidade e o Tempo</h2>
+                    <p class="dsppPodcast dsppIndex">O Marcando a Taça traz à tona a amizade feminina e as transformações positivas que ela tem o poder de provocar. Nesse retorno da live de sábado terei o prazer de receber as mais que amigas, friends, Josieni Pereira e Melissa Vicente
+                        para esse bate papo!</p>
+                    <a href="https://www.youtube.com/watch?v=cKq79I9jmWY" target="_blank"><button class="pButton">Ver
+							Mais</button></a>
+                </div>
+            </div>
+            <div class="ppPodcast">
+                <img class="imgPodcast" src="./images/podcast04.webp"></img>
+                <div class="ppTexto">
+                    <h2 class="pdcH2">Parem de romantizar a mulher multitarefas!</h2>
+                    <p class="dsppPodcast dsppIndex">Dessa vez o time de primeira contará com Marina Rajabally e Nathalia Aoão e o assunto é a necessária desconstrução da rotina multiatarefada que estressa e cansa ao extremo a mulherada.</p>
+                    <a href="https://www.youtube.com/watch?v=iKDz49X7GE8" target="_blank"><button class="pButton">Ver
+							Mais</button></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Login -->
 
-					Nessa live teremos a presença da bióloga, educadora e ativista ambiental Silvia Castro.
+    <div id="blocoLogin" class="conjunto esconder">
 
-					Vamos aproveitar toda sua experiência, de mais de 20 anos na área, seja como diretora do Instituto EcoFaxina...</p>
-					
-					<a href="https://www.youtube.com/watch?v=Dw0DP1DlnlM"><button class="pButton">Ver Mais</button></a>
-				</div>
-			</div>
-			<div class="ppPodcast">
-				<img class="imgPodcast" src="./images/podcast03.webp"></img>
-				<div class="ppTexto">
-					<h2 class="pdcH2">Amizade, Sororidade e o Tempo</h2>
-					<p class="dsppPodcast dsppIndex">O Marcando a Taça traz à tona a amizade feminina e as transformações positivas que ela tem o poder de provocar.
+        <div class="caixaflu" class="conjunto esconder">
 
-					Nesse retorno da live de sábado terei o prazer de receber as mais que amigas, friends, Josieni Pereira e Melissa Vicente para esse bate papo!</p>
-					<a href="https://www.youtube.com/watch?v=cKq79I9jmWY"><button class="pButton">Ver Mais</button></a>
-				</div>
-			</div>
-			<div class="ppPodcast">
-				<img class="imgPodcast" src="./images/podcast04.webp"></img>
-				<div class="ppTexto">
-					<h2 class="pdcH2">Parem de romantizar a mulher multitarefas!</h2>
-					<p class="dsppPodcast dsppIndex">Dessa vez o time de primeira contará com Marina Rajabally e Nathalia Aoão e o assunto é a necessária desconstrução da rotina multiatarefada que estressa e cansa ao extremo a mulherada.</p>
-					<a href="https://www.youtube.com/watch?v=iKDz49X7GE8"><button class="pButton">Ver Mais</button></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Login -->
+            <div id="fecha"> X </div>
 
-<div id="blocoLogin" class="conjunto esconder">
-		
-		<div class="caixaflu" class="conjunto esconder">
+            <div class="centraliza">
+                <img id="logo" src="images/logo_cortada.png">
+            </div>
 
-			<div id="fecha"> X </div>
+            <div class="log_margin">
+                <form>
+                    <label>Email*</label>
+                    <input type="email" required="required" name="email_log" id="email_log">
+                    <br>
+                    <label>Senha*</label>
+                    <input type="password" required="required" name="senha_log" id="senha_log">
 
-			<div class="centraliza">
-				<img id="logo" src="images/logo_cortada.png">
-			</div>
+                    <div id="esq" class="esq">
+                        <p>Esqueceu a senha?</p>
+                    </div>
+                </form>
+            </div>
 
-			<div class="log_margin">
-				<form>
-					<label>Email*</label>
-					<input  type="email" name="email_log" id="email_log" >
-				      <br>
-					<label>Senha*</label>
-					<input type="password" name="senha_log" id="senha_log">
+            <div class="centraliza">
+                <button class="op_log"><i class="fab fa-google"></i></button>
+                <button class="op_log"><i class="fab fa-facebook-f"></i></button>
+                <button class="op_log"><i class="fab fa-linkedin-in"></i></button>
+                <br>
+                <input class="button" type="submit" name="con_log" id="con_log" />
+                <p>Não possui cadastro ainda? <strong> <a href="#blocoCadastro" id="linkCad"> Clique aqui </a></strong></p>
+            </div>
+        </div>
+    </div>
 
-					<div id="esq" class="esq">
-						<p>Esqueceu a senha?</p>
-				    </div>
-			    </form>
-			</div>
+    <!-- CADASTRO-->
 
-			<div class="centraliza">
-			    	<button class="op_log"><i class="fab fa-google"></i></button>
-			    	<button class="op_log"><i class="fab fa-facebook-f"></i></button>
-			    	<button class="op_log"><i class="fab fa-linkedin-in"></i></button>
-			    		<br>
-			    	<input class="button" type="submit" name="con_log" id="con_log" />
-			    	<p>Não possui cadastro ainda? <strong> <a href="#blocoCadastro" id="linkCad"> Clique aqui </a></strong></p>
-			 </div>
-		</div>
-	</div>
- 
- <!-- CADASTRO-->
+    <div id="blocoCadastro" class="conjunto esconder">
 
- 	<div id="blocoCadastro" class="conjunto esconder">
-		
-		<div class="caixaflu" class="conjunto esconder">
+        <div class="caixaflu" class="conjunto esconder">
 
-			<div id="fecha_Cad"> X </div>
+            <div id="fecha_Cad"> X </div>
 
-			<div class="centraliza">
-				<img id="logo" src="images/logo_cortada.png">
-			</div>
+            <div class="centraliza">
+                <img id="logo" src="images/logo_cortada.png">
+            </div>
 
-			<div class="log_margin">
-				<form>
-					<label>Nome Completo*</label>
-					<input type="text" id="email_log">
-						<br>
-					<label>Email*</label>
-					<input  type="email" name="email_log" id="email_log" >
-				      <br>
-					<label>Senha*</label>
-					<input type="password" name="senha_log" id="senha_log">
-					 <br>
-					<label>Confirmar senha*</label>
-					<input type="password" name="senha_log" id="senha_log">
+            <div class="log_margin">
+                <form>
+                    <label>Nome Completo*</label>
+                    <input type="text" required="required" id="email_log">
+                    <br>
+                    <label>Email*</label>
+                    <input type="email" required="required" name="email_log" id="email_log">
+                    <br>
+                    <label>Senha*</label>
+                    <input type="password" required="required" name="senha_log" id="senha_log">
+                    <br>
+                    <label>Confirmar senha*</label>
+                    <input type="password" required="required" name="senha_log" id="senha_log">
 
-					<div class="centraliza">
-						<input class="button" type="submit" name="con_log" id="btn_cad" />
-					</div>
-			    </form>
-			</div>
+                    <div class="centraliza">
+                        <input class="button" required="required" type="submit" name="con_log" id="btn_cad" />
+                    </div>
+                </form>
+            </div>
 
-		</div>
-	</div>
+        </div>
+    </div>
 
-<!-- Footer  -->
-	<footer>
-		<div id="FIDiv">
-			<i class="fe fab fa-facebook-square ficon fa-3x"></i>
-			<i class="fe fab fa-youtube ficon fa-3x" ></i>
-			<i class="fe fab fa-instagram-square ficon fa-3x"></i>
-		</div>
-	</footer>
-<script type="text/javascript" src="js/functions.js"></script>
+
+    <!-- Footer  -->
+    <footer>
+        <div id="FIDiv">
+            <a href="https://www.facebook.com/carlinhabassan" target="_blank"><i
+					class="fe fab fa-facebook-square ficon fa-3x"></i></a>
+            <a href="https://www.youtube.com/c/CarlinhaBassan" target="_blank"><i
+					class="fe fab fa-youtube ficon fa-3x"></i></a>
+            <a href="https://www.instagram.com/carlinhabassan07/?hl=pt-br" target="_blank"><i
+					class="fe fab fa-instagram-square ficon fa-3x"></i></a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/functions.js"></script>
 </body>
+
 </html>
