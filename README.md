@@ -8,7 +8,7 @@
 
 ### Iniciando no Navegador: 
 
-<a href=" https://alissonforbidden.github.io/Carlinha-site/"> Clique aqui para ir para a página no Github.io</a>
+<a href="https://alissonforbidden.github.io/Carlinha-site/"> Clique aqui para ir para a página no Github.io</a>
 
 ---
 
