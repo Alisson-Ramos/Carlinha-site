@@ -18,6 +18,56 @@
 
 ---
 
+## 🤝 Colaboradores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/AlissonForbidden">
+        <img src="https://avatars.githubusercontent.com/u/81827023?v=4" width="100px;" alt="Foto do Alisson Ramos no GitHub"/><br>
+        <sub>
+          <b>Alisson Ramos</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://www.responsiblebusiness.com/wp-content/uploads/2019/05/Speaker-Unknown.jpg" width="100px;" alt="Foto do Ana Beatriz Fernandes Alves"/><br>
+        <sub>
+          <b>Ana Beatriz</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/AlissonForbidden">
+        <img src="https://www.responsiblebusiness.com/wp-content/uploads/2019/05/Speaker-Unknown.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Aquires Silva</b>
+        </sub>
+      </a>
+    </td>
+	<td align="center">
+      <a href="#">
+        <img src="https://www.responsiblebusiness.com/wp-content/uploads/2019/05/Speaker-Unknown.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Gabriel Apolinário</b>
+        </sub>
+      </a>
+    </td>
+	<td align="center">
+      <a href="#">
+        <img src="https://www.responsiblebusiness.com/wp-content/uploads/2019/05/Speaker-Unknown.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Grazziely Castilho</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+---
+
 <details>
 	<summary>Outros projetos do curso</summary>
 	<ul>
