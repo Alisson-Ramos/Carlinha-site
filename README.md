@@ -39,8 +39,8 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/AlissonForbidden">
-        <img src="https://www.responsiblebusiness.com/wp-content/uploads/2019/05/Speaker-Unknown.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+      <a href="https://github.com/Aquires-Brabo">
+        <img src="https://avatars.githubusercontent.com/u/99987236?v=4"/><br>
         <sub>
           <b>Aquires Silva</b>
         </sub>
