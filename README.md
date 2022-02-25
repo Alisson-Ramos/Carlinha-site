@@ -40,7 +40,7 @@
     </td>
     <td align="center">
       <a href="https://github.com/Aquires-Brabo">
-        <img src="https://avatars.githubusercontent.com/u/99987236?v=4"/><br>
+        <img src="https://avatars.githubusercontent.com/u/99987236?v=4"  width="100px;"/><br>
         <sub>
           <b>Aquires Silva</b>
         </sub>
